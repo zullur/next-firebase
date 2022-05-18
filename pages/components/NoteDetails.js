@@ -1,6 +1,6 @@
 import styles from '../../styles/Layout.module.scss'
 import { useEffect, useState } from 'react'
-import { app, database } from '../firebaseConfig';
+import { app, database } from '../api/firebaseConfig';
 import {
     doc,
     getDoc,

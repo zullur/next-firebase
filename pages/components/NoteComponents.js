@@ -1,6 +1,6 @@
 import styles from '../../styles/Layout.module.scss'
 import { useState, useEffect } from "react";
-import { app, database } from '../firebaseConfig';
+import { app, database } from '../api/firebaseConfig';
 import { collection, addDoc, getDocs } from 'firebase/firestore';
 
 const dbInstance = collection(database, 'notes');
