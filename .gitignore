@@ -32,5 +32,4 @@ start.sh
 .idea
 .refs
 .tsbuildinfo
-.firebase
 *.log
